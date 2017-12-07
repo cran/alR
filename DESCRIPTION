@@ -1,8 +1,8 @@
 Package: alR
-Version: 2.2.0
-Date: 2017-08-31
+Version: 2.2.2
+Date: 2017-12-07
 Title: Arc Lengths of Statistical Functions
-Description: Estimation, regression and classification using arc lengths.
+Description: Estimation, regression and classification are redefined using a mathematically intractible measure, namely, the arc length.  Functions for parameter estimation, goodness-of-fit and regression (linear and non-linear) are provided.  These methods have been implemented with parallel computing in mind, and may therefore be executed on large clusters.
 Depends: R (>= 3.2)
 Imports: alabama, pbdMPI, DEoptimR, Rcpp, stats
 LinkingTo: Rcpp, RcppArmadillo
@@ -14,6 +14,6 @@ RoxygenNote: 6.0.1
 Suggests: testthat
 LazyData: true
 NeedsCompilation: yes
-Packaged: 2017-08-31 10:35:00 UTC; User
+Packaged: 2017-12-07 10:27:05 UTC; User
 Repository: CRAN
-Date/Publication: 2017-09-01 09:22:14 UTC
+Date/Publication: 2017-12-07 12:02:24 UTC
